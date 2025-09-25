@@ -24,7 +24,8 @@ def banner() -> None:
 
 '''
 
-    # Mor tonları (RGB)                                                                                   purple_shades = [
+    # Mor tonları (RGB)
+    purple_shades = [
         (102, 0, 153),
         (128, 0, 192),
         (153, 51, 255),
@@ -46,7 +47,3 @@ def banner() -> None:
 
 if __name__ == "__main__":
     banner()
-
-
-
-
