@@ -7,7 +7,8 @@ from utils.proxy import get_random_proxy, remove_proxy
 from utils.colors import color
 from utils.validate import validate_input
 
-# By Rayzer                                                                                           def load_user_agents(path="user_agents.txt"):
+# By Rayzer
+def load_user_agents(path="user_agents.txt"):
     try:
         with open(path, "r") as file:
             return [line.strip() for line in file if line.strip()]
@@ -21,7 +22,8 @@ user_agents = load_user_agents()
 def build_headers():
     return {
         "User-Agent": random.choice(user_agents),
-        "Accept": "*/*",                                                                                      "Connection": "keep-alive"
+        "Accept": "*/*",
+        "Connection": "keep-alive"
     }
 
 # By Rayzer
