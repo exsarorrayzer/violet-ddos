@@ -76,7 +76,7 @@ Protocol Options
 Example Usage
 
 ```
-RAYZER DDOS
+VIOLET DDOS
 
 Methods:
 1. UDP
