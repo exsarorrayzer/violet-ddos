@@ -8,20 +8,27 @@ This tool is for educational and authorized testing purposes only. Unauthorized 
 
 Features
 
-· Multiple Attack Protocols: UDP, TCP, HTTP, Slowloris
-· Advanced TCP Methods: SYN Flood, Data Flood (Single/Multi-threaded)
-· UDP Variants: Plain payload and Random payload attacks
-· HTTP Attacks: GET and POST flood capabilities
-· Proxy Support: Built-in proxy integration
-· User-Friendly Interface: Color-coded console interface
-· Input Validation: Comprehensive validation for all parameters
+> Multiple Attack Protocols: UDP, TCP, HTTP, Slowloris
+> 
+> Advanced TCP Methods: SYN Flood, Data Flood (Single/Multi-threaded)
+> 
+> UDP Variants: Plain payload and Random payload attacks
+>
+> HTTP Attacks: GET and POST flood capabilities
+> 
+> Proxy Support: Built-in proxy integration
+>
+> User-Friendly Interface: Color-coded console interface
+> 
+> Input Validation: Comprehensive validation for all parameters
 
 Installation
 
 Prerequisites
 
-· Python 3.7 or higher
-· pip package manager
+> Python 3.7 or higher
+> 
+> pip package manager
 
 Setup
 
@@ -49,16 +56,22 @@ python main.py
 Protocol Options
 
 1. UDP Attacks
-   · UDP Plain: Fixed payload flood
-   · UDP Random: Random payload flood
+> UDP Plain: Fixed payload flood
+>
+> UDP Random: Random payload flood
+
 2. TCP Attacks
-   · SYN Flood: Single socket or multi-threaded
-   · Data Flood: Single socket or multi-threaded
+> SYN Flood: Single socket or multi-threaded
+> 
+> Data Flood: Single socket or multi-threaded
+
 3. HTTP Attacks
-   · GET Flood: HTTP GET requests
-   · POST Flood: HTTP POST requests
+> GET Flood: HTTP GET requests
+> 
+> POST Flood: HTTP POST requests
+
 4. Slowloris Attack
-   · Low-and-slow attack keeping connections open
+> Low-and-slow attack keeping connections open
 
 Example Usage
 
@@ -114,15 +127,19 @@ Legal and Ethical Use
 
 This tool must only be used in the following scenarios:
 
-· With explicit written permission from the target owner
-· In educational environments for learning purposes
-· For security research with proper authorization
+> With explicit written permission from the target owner
+> 
+> In educational environments for learning purposes
+> 
+> For security research with proper authorization
 
 Acknowledgments
 
-· Developed by Rayzer
-· For educational purposes only
-· Use responsibly and ethically
+> Developed by Rayzer
+>
+> For educational purposes only
+>
+> Use responsibly and ethically
 
 Support
 
