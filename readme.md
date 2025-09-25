@@ -2,11 +2,6 @@ Violet DDOS Tool
 
 A powerful and versatile DDoS testing tool written in Python, designed for educational purposes and authorized penetration testing.
 
-(https://img.shields.io/badge/Python-3.7%2B-blue)
-(https://img.shields.io/badge/License-MIT-green)
-(https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
-
-
 ⚠️ DISCLAIMER
 
 This tool is for educational and authorized testing purposes only. Unauthorized use against any network or system without explicit permission is illegal. The developers are not responsible for any misuse of this software.
