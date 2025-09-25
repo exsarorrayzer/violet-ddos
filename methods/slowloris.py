@@ -4,7 +4,8 @@ import threading
 from utils.colors import color
 
 # By Rayzer
-def slowloris_attack(ip, port, duration, threads=100):                                                                                              end_time = time.time() + duration
+def slowloris_attack(ip, port, duration, threads=100):
+    end_time = time.time() + duration
     sockets = []
 
     print(color(f"[*] Starting Slowloris on {ip}:{port} | Threads: {threads}", "blue"))
@@ -45,5 +46,3 @@ def slowloris_attack(ip, port, duration, threads=100):                          
             pass
 
     print(color(f"[+] Slowloris attack complete. Total open sockets: {len(sockets)}", "green"))
-
-
